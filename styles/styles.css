@@ -5,6 +5,13 @@ body {
   background-size: cover;
 }
 
+.containerboton {
+  width: 236px;
+  align-items: center;
+  margin: 10px auto;
+  margin-top: 36px;
+}
+
 .cards {
   position: relative;
   align-items: center;
@@ -13,7 +20,8 @@ body {
 .fondoTextura {
   width: 600px;
   height: 480px;
-  background-image: url(../image/fondocards.jpg);
+  background-image: url(../image/fondo.jpg);
+  background-color: rgba(0, 0, 0, 0.15);
   background-repeat: no-repeat;
   background-position: center;
   margin: 30px auto;
@@ -50,6 +58,14 @@ body {
   margin-bottom: 5px;
 }
 
+.boton1 {
+  width: 218px;
+  height: 64px;
+  text-align: center;
+  background-color: rgb(218, 189, 28);
+  border: none;
+  border-radius: 42px;
+}
 .boton2 {
   width: 150px;
   top: 15px;
@@ -59,4 +75,9 @@ body {
   background-color: rgb(218, 189, 28);
   border: none;
   border-radius: 10px;
+}
+
+.sombra {
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
 }

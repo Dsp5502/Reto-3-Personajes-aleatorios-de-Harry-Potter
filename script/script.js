@@ -1,7 +1,8 @@
 import { data } from '../data/data.js';
 
+let personajes = document.getElementById('personajes');
+
 personajes.innerHTML = '';
-data.forEach((personas) => {});
 
 let random = Math.floor(Math.random() * data.length);
 
@@ -19,7 +20,3 @@ personajes.innerHTML += `
   </div>
   </div>
   `;
-
-function probar() {
-  alert('sirve');
-}
