@@ -13,7 +13,7 @@ export const data = [
   },
   {
     id: 2,
-    imagen: '../image/Draco-Malfoy_.jpg',
+    imagen: './image/Draco-Malfoy_.jpg',
     personaje: 'Draco Malfoy',
     casa: 'Slytherin ',
   },
